@@ -64,26 +64,15 @@
         };
     };
 
-    behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))                    &kp QUESTION   &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp DELETE                       &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp C_VOLUME_UP
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &lt 2 MINUS  &lt_to_layer_0 3 LANGUAGE_4      &kp BACKSPACE  &lt 2 SPACE                             &kp C_VOLUME_DOWN
+&kp Q             &kp W         &kp E         &kp R  &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F  &kp G        &kp LS(LG(S))      &kp QUESTION   &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &kp DELETE         &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp C_VOLUME_UP
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &none  &lt 2 MINUS  &none              &kp BACKSPACE  &lt 2 SPACE                             &kp C_VOLUME_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
