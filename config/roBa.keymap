@@ -38,11 +38,6 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <25 24 33>;
-        };
     };
 
     macros {
@@ -59,10 +54,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W             &kp E         &kp R                   &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S             &kp D         &kp F                   &kp G        &kp LS(LG(S))         &kp QUESTION   &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X             &kp C         &kp V                   &kp B        &kp DELETE            &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp LCTRL  &mt LEFT_WIN TAB  &kp LEFT_ALT  &lt 3 LS(INT_MUHENKAN)  &lt 3 MINUS  &lt 1 INT_HENKAN      &kp BACKSPACE  &lt 2 SPACE                             &tog 2
+&kp Q      &kp W             &kp E         &kp R        &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S             &kp D         &kp F        &kp G        &kp LS(LG(S))         &kp QUESTION   &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z      &kp X             &kp C         &kp V        &kp B        &kp DELETE            &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp LCTRL  &mt LEFT_WIN TAB  &kp LEFT_ALT  &lt 3 MINUS  &lt 3 MINUS  &lt 1 INT_HENKAN      &kp BACKSPACE  &lt 2 SPACE                             &tog 2
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
