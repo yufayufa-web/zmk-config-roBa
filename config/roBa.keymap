@@ -87,7 +87,7 @@
 &kp PERCENT  &kp N7  &kp N8  &kp N9      &kp SLASH                         &kp F1   &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC
 &kp EQUAL    &kp N4  &kp N5  &kp N6      &kp ASTERISK  &trans      &trans  &kp F6   &kp LBKT  &kp RBKT  &kp AT    &trans
 &kp SQT      &kp N1  &kp N2  &kp N3      &kp PLUS      &trans      &trans  &kp F10  &kp LT    &kp GT    &kp F13   &trans
-&trans       &kp N0  &N00    &kp PERIOD  &trans        &trans      &trans  &trans                                 &tog 0
+&trans       &kp N0  &N00    &kp PERIOD  &trans        &trans      &trans  &trans                                 &to 0
             >;
         };
 
