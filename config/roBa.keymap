@@ -57,7 +57,7 @@
 &kp Q      &kp W             &kp E         &kp R                 &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A      &kp S             &kp D         &kp F                 &kp G        &kp LS(LG(S))      &kp QUESTION   &kp H        &kp J  &kp K      &kp L    &kp ENTER
 &kp Z      &kp X             &kp C         &kp V                 &kp B        &kp DELETE         &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp LCTRL  &mt LEFT_WIN TAB  &kp LEFT_ALT  &mt LEFT_SHIFT MINUS  &lt 3 LANG1  &lt 2 LANG2        &kp BACKSPACE  &lt 1 SPACE                             &tog 1
+&kp LCTRL  &mt LEFT_WIN TAB  &kp LEFT_ALT  &mt LEFT_SHIFT MINUS  &lt 3 LANG1  &lt 2 LANG2        &kp BACKSPACE  &lt 1 SPACE                             &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -68,16 +68,16 @@
 &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp F17                                 &kp AT_SIGN    &kp ASTERISK  &kp LPAR       &kp RIGHT_BRACE  &kp PIPE
 &kp F15      &kp N4  &kp N5  &kp N6  &kp F21    &trans      &kp EXCLAMATION  &kp SQT        &kp RBKT      &kp BACKSLASH  &kp LBKT         &trans
 &kp PERIOD   &kp N1  &kp N2  &kp N3  &kp COLON  &trans      &kp F14          &kp SEMICOLON  &kp LT        &kp GT         &kp F13          &trans
-&trans       &kp N0  &N00    &trans  &trans     &trans      &trans           &trans                                                       &bt BT_CLR
+&trans       &kp N0  &N00    &trans  &trans     &trans      &trans           &trans                                                       &tog 0
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp PERCENT  &trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP                               &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
-&kp F15      &trans  &trans      &kp C_BRI_DN  &kp C_BRI_UP  &trans      &kp EXCLAMATION  &kp F6   &kp F7   &kp F8   &kp F9   &trans
-&trans       &trans  &trans      &trans        &trans        &trans      &kp F14          &kp F10  &kp F11  &kp F12  &kp F13  &trans
-&trans       &trans  &trans      &trans        &trans        &trans      &trans           &trans                              &trans
+&kp PERCENT   &trans        &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP                                   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
+&kp F15       &trans        &trans        &kp C_BRI_DN  &kp C_BRI_UP  &trans          &kp EXCLAMATION  &kp F6   &kp F7   &kp F8   &kp F9   &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR      &kp F14          &kp F10  &kp F11  &kp F12  &kp F13  &trans
+&trans        &trans        &trans        &trans        &trans        &trans          &trans           &trans                              &trans
             >;
         };
 
