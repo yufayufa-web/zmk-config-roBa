@@ -65,7 +65,7 @@
 
         NUM {
             bindings = <
-&kp PERCENT  &kp N7  &kp N8  &kp N9  &kp F17                                 &kp AT_SIGN    &kp ASTERISK  &kp LPAR       &kp RIGHT_BRACE  &kp PIPE
+&kp PERCENT  &kp N7  &kp N8  &kp N9  &kp F17                                 &kp AT_SIGN    &kp ASTERISK  &lt 5 LPAR     &kp RIGHT_BRACE  &kp PIPE
 &kp F15      &kp N4  &kp N5  &kp N6  &kp F21    &trans      &kp EXCLAMATION  &kp SQT        &kp RBKT      &kp BACKSLASH  &kp LBKT         &trans
 &kp PERIOD   &kp N1  &kp N2  &kp N3  &kp COLON  &trans      &kp F14          &kp SEMICOLON  &kp LT        &kp GT         &kp F13          &trans
 &trans       &kp N0  &N00    &trans  &trans     &trans      &trans           &trans                                                       &to 0
